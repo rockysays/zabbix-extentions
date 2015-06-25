@@ -5,9 +5,6 @@
 #               Add "zabbix  ALL=NOPASSWD: /sbin/ipvsadm" to /etc/sudoers file.
 #               And delete line "Defaults requiretty".
 
-#SERVICE=`echo $2 | awk '{ print $1 }'`
-#BACKEND=`echo $2 | awk '{ print $2 }'`
-
 SERVICE=$2
 BACKEND=$3
 
