@@ -1,0 +1,2 @@
+Zabbix extensions for:
+- IPVS
